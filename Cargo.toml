@@ -1,0 +1,16 @@
+[package]
+name = "rust_mongo_crud"
+version = "0.1.0"
+edition = "2021"
+
+# Dependências do Actix-web e MongoDB
+[dependencies]
+actix-web = "4.0.0"
+actix-rt = "2.5.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+mongodb = "2.0"
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"
+futures-util = "0.3"
+
